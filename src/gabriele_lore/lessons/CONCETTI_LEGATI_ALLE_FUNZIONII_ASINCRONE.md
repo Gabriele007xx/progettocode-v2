@@ -15,6 +15,8 @@ Un oggetto Promise in JavaScript può essere:
 - Completato (Fulfilled)
 - Rifiutato (Rejected)
 
+![image](https://github.com/Gabriele007xx/progettocode-v2/assets/97365913/7f7d3b1d-3f89-48c1-9f40-33f41002973f)
+
 L'oggetto Promise supporta due proprietà: stato (state) e risultato (result).
 
 - Mentre un oggetto Promise è "in sospeso" (sta lavorando), il risultato è indefinito.
@@ -39,6 +41,9 @@ myPromise.then(
   function(error) { /* code if some error */ }
 );
 ```
+
+![image](https://github.com/Gabriele007xx/progettocode-v2/assets/97365913/889a9a7e-9c78-49cd-ab5f-50d107f62355)
+
 
 Esempio completo di una Promise:
 
@@ -66,6 +71,8 @@ myPromise.then(
 );
 
 ```
+
+![image](https://github.com/Gabriele007xx/progettocode-v2/assets/97365913/0e54cbd7-8bad-497f-9539-a27c1ba31506)
 
 # Async e wait
 
