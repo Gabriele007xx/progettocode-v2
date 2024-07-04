@@ -78,14 +78,20 @@ myPromise.then(
 
 async/await: Introdotti in ECMAScript 2017, sono sintatticamente più puliti e rendono il codice asincrono simile a quello sincrono. La parola chiave async viene utilizzata per dichiarare una funzione asincrona, mentre await viene utilizzata per aspettare una Promise.
 
+
 ```
 async function esempioAsync() {
-    try {
-        let risultato = await promise;
-        console.log(risultato);
-    } catch (error) {
-        console.error(error);
-    }
+    const res = await function(); // esempio senza nomi specifici
+    return res;
+}
+```
+Per usarlo con le API:
+
+```
+URLAPI = "http://www.dubito.it/api/ads/47";
+async function esempioAsync() {
+    const reply = await fetch(URLAPI); // resistuisce un oggetto particolare, se io voglio recuperare il dato effettivo devo fare
+    const item = await reply.json(); // questo
 }
 
 esempioAsync();
