@@ -57,6 +57,22 @@ Delete con condizione:
 DELETE FROM nome_tabella
 WHERE nome_campo = 'valore';
 `
+
+# Tabelle
+
+Per manipolare tabelle abbiamo dei comandi.
+
+## Creazione tabelle
+
+`
+CREATE TABLE users (
+    id SERIAL PRIMARY_KEY
+    title VARCHAR(50) NOT NULL
+    content VARCHAR(255) NOT NULL
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
+) 
+`
+
 # Interrogazione dei dati
 
 Si usa il select per prendere dati dal database.
