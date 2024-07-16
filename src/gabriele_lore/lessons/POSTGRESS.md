@@ -1,0 +1,1 @@
+PostgreSQL è un DBMS ad oggetti pubblicato con licenza libera (stile Licenza BSD). E' una alternativa sia rispetto ad altri prodotti liberi come MySQL, Firebird SQL e MaxDB che a quelli a codice chiuso come Oracle, IBM Informix o DB2 ed offre caratteristiche uniche nel suo genere che lo pongono per alcuni aspetti all'avanguardia nel settore delle basi di dati.
